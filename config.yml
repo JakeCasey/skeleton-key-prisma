@@ -4,6 +4,6 @@ databases:
     connector: mysql
     host: dokku-mysql-prisma-server-db
     port: 3306
-    user: postgres
+    user: mysql
     password: 6a6a775b741f0541
     migrations: true
