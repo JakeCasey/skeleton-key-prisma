@@ -5,5 +5,5 @@ databases:
     host: dokku-mysql-prisma-server-db
     port: 3306
     user: mysql
-    password: 6a6a775b741f0541
+    password: prisma
     migrations: true
