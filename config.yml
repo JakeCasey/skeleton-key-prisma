@@ -1,9 +1,10 @@
 port: 4466
+#database info gathered when we provision database w/ dokku postgres plugin
 databases:
   default:
     connector: postgres
     host: dokku-postgres-prisma-server-db
     port: 5432
     user: postgres
-    password: 4644b4ddc50643dfe5e91d9c94af68ea
+    password: apassword
     migrations: true
